@@ -18,7 +18,7 @@ export async function POST(req: Request) {
       caption: message,
       reply_markup: {
         inline_keyboard: [
-          [{ text: "🚀 Open Lakhpoti App", web_app: { url: "https://your-app.vercel.app" } }],
+          [{ text: "🚀 Open Lakhpoti App", web_app: { url: "https://lakhpoti-bd.vercel.app" } }],
           [{ text: "📢 Update Channel", url: "https://t.me/lakhpotiOfficial" }]
         ]
       }
